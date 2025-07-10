@@ -24,7 +24,7 @@
 * in package.json add "dev": "node --watch --loader ts-node/esm ./src/index.ts" to scripts section
 * create file src/index.ts
 * import express from express in index.ts and add boiler plate code.
-* create file src/test.ts and test importing ts file works in index.ts
+* create file src/test.ts and test importing works in index.ts (Had to use .js extensions when importing.)
 
 ## Notes
 When importing you need to use a .js file extension unless you use the allowImportingTsExtensions
